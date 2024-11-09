@@ -1,0 +1,46 @@
+.formulario {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 50dvw;
+  padding: 3rem;
+  border: solid 2px;
+  border-radius: 5%;
+  background-color: rgb(160, 194, 214);
+  color: black;
+
+  & input {
+    margin: 2px 2px;
+    padding: 2%;
+    width: 20dvw;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    display: block;
+
+  }
+
+  & button {
+    width: 20%;
+    margin: 10px auto;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+
+  & .errorMessage {
+    height: 1rem;
+    color: red;
+    flex-wrap: wrap;
+  }
+
+  & label {
+    font-weight: bold;
+  }
+}
